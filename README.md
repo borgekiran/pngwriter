@@ -21,6 +21,19 @@ existing PNG images and more. Documentation in English (and Spanish up to
 v0.5.4). Runs under Linux, Unix, Mac OS X and Windows. Requires libpng and
 optionally FreeType2 for the text support.
 
+PNGwriter is a very easy to use open source graphics library that uses PNG as its output format. The interface has been designed to be as simple and intuitive as possible. It allows:
+Plotting and reading pixels in the following colour spaces:
+RGB (red, green, blue)
+HSV (hue, saturation, value/brightness)
+CMYK (cyan, magenta, yellow, black);
+Basic shapes;
+Scaling;
+Bilinear interpolation;
+Full TrueType antialiased and rotated text support;
+Bezier curves;
+Opening existing PNG images;
+And more!
+
 **Warning:** PNGwriter was never designed for reading untrusted files with it.
 Do NOT use this in sensitive environments, especially DO NOT read PNGs from unknown sources with it!
 
